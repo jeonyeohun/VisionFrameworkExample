@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFF3FA0281A9F8A00515F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3F9F281A9F8A00515F41 /* AppDelegate.swift */; };
+		CEFF3FA2281A9F8A00515F41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FA1281A9F8A00515F41 /* SceneDelegate.swift */; };
+		CEFF3FA4281A9F8A00515F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FA3281A9F8A00515F41 /* ViewController.swift */; };
+		CEFF3FA7281A9F8A00515F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF3FA5281A9F8A00515F41 /* Main.storyboard */; };
+		CEFF3FA9281A9F8C00515F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF3FA8281A9F8C00515F41 /* Assets.xcassets */; };
+		CEFF3FAC281A9F8C00515F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF3FAA281A9F8C00515F41 /* LaunchScreen.storyboard */; };
+		CEFF3FB7281A9F8C00515F41 /* VisionCardScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FB6281A9F8C00515F41 /* VisionCardScannerTests.swift */; };
+		CEFF3FC1281A9F8C00515F41 /* VisionCardScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FC0281A9F8C00515F41 /* VisionCardScannerUITests.swift */; };
+		CEFF3FC3281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FC2281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFF3FB3281A9F8C00515F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF3F94281A9F8A00515F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF3F9B281A9F8A00515F41;
+			remoteInfo = VisionCardScanner;
+		};
+		CEFF3FBD281A9F8C00515F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF3F94281A9F8A00515F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF3F9B281A9F8A00515F41;
+			remoteInfo = VisionCardScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFF3F9C281A9F8A00515F41 /* VisionCardScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionCardScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF3F9F281A9F8A00515F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFF3FA1281A9F8A00515F41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEFF3FA3281A9F8A00515F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFF3FA6281A9F8A00515F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFF3FA8281A9F8C00515F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFF3FAB281A9F8C00515F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFF3FAD281A9F8C00515F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF3FB2281A9F8C00515F41 /* VisionCardScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionCardScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF3FB6281A9F8C00515F41 /* VisionCardScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCardScannerTests.swift; sourceTree = "<group>"; };
+		CEFF3FBC281A9F8C00515F41 /* VisionCardScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionCardScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF3FC0281A9F8C00515F41 /* VisionCardScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCardScannerUITests.swift; sourceTree = "<group>"; };
+		CEFF3FC2281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCardScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFF3F99281A9F8A00515F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF3FAF281A9F8C00515F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF3FB9281A9F8C00515F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFF3F93281A9F8A00515F41 = {
+			isa = PBXGroup;
+			children = (
+				CEFF3F9E281A9F8A00515F41 /* VisionCardScanner */,
+				CEFF3FB5281A9F8C00515F41 /* VisionCardScannerTests */,
+				CEFF3FBF281A9F8C00515F41 /* VisionCardScannerUITests */,
+				CEFF3F9D281A9F8A00515F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFF3F9D281A9F8A00515F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF3F9C281A9F8A00515F41 /* VisionCardScanner.app */,
+				CEFF3FB2281A9F8C00515F41 /* VisionCardScannerTests.xctest */,
+				CEFF3FBC281A9F8C00515F41 /* VisionCardScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFF3F9E281A9F8A00515F41 /* VisionCardScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF3F9F281A9F8A00515F41 /* AppDelegate.swift */,
+				CEFF3FA1281A9F8A00515F41 /* SceneDelegate.swift */,
+				CEFF3FA3281A9F8A00515F41 /* ViewController.swift */,
+				CEFF3FA5281A9F8A00515F41 /* Main.storyboard */,
+				CEFF3FA8281A9F8C00515F41 /* Assets.xcassets */,
+				CEFF3FAA281A9F8C00515F41 /* LaunchScreen.storyboard */,
+				CEFF3FAD281A9F8C00515F41 /* Info.plist */,
+			);
+			path = VisionCardScanner;
+			sourceTree = "<group>";
+		};
+		CEFF3FB5281A9F8C00515F41 /* VisionCardScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF3FB6281A9F8C00515F41 /* VisionCardScannerTests.swift */,
+			);
+			path = VisionCardScannerTests;
+			sourceTree = "<group>";
+		};
+		CEFF3FBF281A9F8C00515F41 /* VisionCardScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF3FC0281A9F8C00515F41 /* VisionCardScannerUITests.swift */,
+				CEFF3FC2281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift */,
+			);
+			path = VisionCardScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFF3F9B281A9F8A00515F41 /* VisionCardScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF3FC6281A9F8C00515F41 /* Build configuration list for PBXNativeTarget "VisionCardScanner" */;
+			buildPhases = (
+				CEFF3F98281A9F8A00515F41 /* Sources */,
+				CEFF3F99281A9F8A00515F41 /* Frameworks */,
+				CEFF3F9A281A9F8A00515F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionCardScanner;
+			productName = VisionCardScanner;
+			productReference = CEFF3F9C281A9F8A00515F41 /* VisionCardScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFF3FB1281A9F8C00515F41 /* VisionCardScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF3FC9281A9F8C00515F41 /* Build configuration list for PBXNativeTarget "VisionCardScannerTests" */;
+			buildPhases = (
+				CEFF3FAE281A9F8C00515F41 /* Sources */,
+				CEFF3FAF281A9F8C00515F41 /* Frameworks */,
+				CEFF3FB0281A9F8C00515F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFF3FB4281A9F8C00515F41 /* PBXTargetDependency */,
+			);
+			name = VisionCardScannerTests;
+			productName = VisionCardScannerTests;
+			productReference = CEFF3FB2281A9F8C00515F41 /* VisionCardScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFF3FBB281A9F8C00515F41 /* VisionCardScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF3FCC281A9F8C00515F41 /* Build configuration list for PBXNativeTarget "VisionCardScannerUITests" */;
+			buildPhases = (
+				CEFF3FB8281A9F8C00515F41 /* Sources */,
+				CEFF3FB9281A9F8C00515F41 /* Frameworks */,
+				CEFF3FBA281A9F8C00515F41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFF3FBE281A9F8C00515F41 /* PBXTargetDependency */,
+			);
+			name = VisionCardScannerUITests;
+			productName = VisionCardScannerUITests;
+			productReference = CEFF3FBC281A9F8C00515F41 /* VisionCardScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFF3F94281A9F8A00515F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CEFF3F9B281A9F8A00515F41 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CEFF3FB1281A9F8C00515F41 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CEFF3F9B281A9F8A00515F41;
+					};
+					CEFF3FBB281A9F8C00515F41 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CEFF3F9B281A9F8A00515F41;
+					};
+				};
+			};
+			buildConfigurationList = CEFF3F97281A9F8A00515F41 /* Build configuration list for PBXProject "VisionCardScanner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFF3F93281A9F8A00515F41;
+			productRefGroup = CEFF3F9D281A9F8A00515F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFF3F9B281A9F8A00515F41 /* VisionCardScanner */,
+				CEFF3FB1281A9F8C00515F41 /* VisionCardScannerTests */,
+				CEFF3FBB281A9F8C00515F41 /* VisionCardScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFF3F9A281A9F8A00515F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF3FAC281A9F8C00515F41 /* LaunchScreen.storyboard in Resources */,
+				CEFF3FA9281A9F8C00515F41 /* Assets.xcassets in Resources */,
+				CEFF3FA7281A9F8A00515F41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF3FB0281A9F8C00515F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF3FBA281A9F8C00515F41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFF3F98281A9F8A00515F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF3FA4281A9F8A00515F41 /* ViewController.swift in Sources */,
+				CEFF3FA0281A9F8A00515F41 /* AppDelegate.swift in Sources */,
+				CEFF3FA2281A9F8A00515F41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF3FAE281A9F8C00515F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF3FB7281A9F8C00515F41 /* VisionCardScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF3FB8281A9F8C00515F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF3FC1281A9F8C00515F41 /* VisionCardScannerUITests.swift in Sources */,
+				CEFF3FC3281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFF3FB4281A9F8C00515F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF3F9B281A9F8A00515F41 /* VisionCardScanner */;
+			targetProxy = CEFF3FB3281A9F8C00515F41 /* PBXContainerItemProxy */;
+		};
+		CEFF3FBE281A9F8C00515F41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF3F9B281A9F8A00515F41 /* VisionCardScanner */;
+			targetProxy = CEFF3FBD281A9F8C00515F41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFF3FA5281A9F8A00515F41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFF3FA6281A9F8A00515F41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFF3FAA281A9F8C00515F41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFF3FAB281A9F8C00515F41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFF3FC4281A9F8C00515F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFF3FC5281A9F8C00515F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFF3FC7281A9F8C00515F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 494S7KDL4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisionCardScanner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pad1.linecorp.VisionCardScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFF3FC8281A9F8C00515F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 494S7KDL4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisionCardScanner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pad1.linecorp.VisionCardScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFF3FCA281A9F8C00515F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 494S7KDL4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pad1.linecorp.VisionCardScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCardScanner.app/VisionCardScanner";
+			};
+			name = Debug;
+		};
+		CEFF3FCB281A9F8C00515F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 494S7KDL4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pad1.linecorp.VisionCardScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionCardScanner.app/VisionCardScanner";
+			};
+			name = Release;
+		};
+		CEFF3FCD281A9F8C00515F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 494S7KDL4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pad1.linecorp.VisionCardScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisionCardScanner;
+			};
+			name = Debug;
+		};
+		CEFF3FCE281A9F8C00515F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 494S7KDL4P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pad1.linecorp.VisionCardScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisionCardScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFF3F97281A9F8A00515F41 /* Build configuration list for PBXProject "VisionCardScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF3FC4281A9F8C00515F41 /* Debug */,
+				CEFF3FC5281A9F8C00515F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF3FC6281A9F8C00515F41 /* Build configuration list for PBXNativeTarget "VisionCardScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF3FC7281A9F8C00515F41 /* Debug */,
+				CEFF3FC8281A9F8C00515F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF3FC9281A9F8C00515F41 /* Build configuration list for PBXNativeTarget "VisionCardScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF3FCA281A9F8C00515F41 /* Debug */,
+				CEFF3FCB281A9F8C00515F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF3FCC281A9F8C00515F41 /* Build configuration list for PBXNativeTarget "VisionCardScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF3FCD281A9F8C00515F41 /* Debug */,
+				CEFF3FCE281A9F8C00515F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFF3F94281A9F8A00515F41 /* Project object */;
+}
