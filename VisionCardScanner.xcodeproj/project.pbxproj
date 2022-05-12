@@ -16,6 +16,7 @@
 		CEFF3FB7281A9F8C00515F41 /* VisionCardScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FB6281A9F8C00515F41 /* VisionCardScannerTests.swift */; };
 		CEFF3FC1281A9F8C00515F41 /* VisionCardScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FC0281A9F8C00515F41 /* VisionCardScannerUITests.swift */; };
 		CEFF3FC3281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FC2281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift */; };
+		CEFF3FD0281ADDC500515F41 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF3FCF281ADDC500515F41 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CEFF3FBC281A9F8C00515F41 /* VisionCardScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionCardScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFF3FC0281A9F8C00515F41 /* VisionCardScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCardScannerUITests.swift; sourceTree = "<group>"; };
 		CEFF3FC2281A9F8C00515F41 /* VisionCardScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionCardScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEFF3FCF281ADDC500515F41 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CEFF3FA8281A9F8C00515F41 /* Assets.xcassets */,
 				CEFF3FAA281A9F8C00515F41 /* LaunchScreen.storyboard */,
 				CEFF3FAD281A9F8C00515F41 /* Info.plist */,
+				CEFF3FCF281ADDC500515F41 /* ResultViewController.swift */,
 			);
 			path = VisionCardScanner;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				CEFF3FA4281A9F8A00515F41 /* ViewController.swift in Sources */,
 				CEFF3FA0281A9F8A00515F41 /* AppDelegate.swift in Sources */,
 				CEFF3FA2281A9F8A00515F41 /* SceneDelegate.swift in Sources */,
+				CEFF3FD0281ADDC500515F41 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
